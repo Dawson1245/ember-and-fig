@@ -12,13 +12,21 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+
+  apiKey: "AIzaSyBQJYjrWKhaKeUv2-5X5HgCT1n3US9-VU8",
+
+  authDomain: "ember-and-fig.firebaseapp.com",
+
+  projectId: "ember-and-fig",
+
+  storageBucket: "ember-and-fig.firebasestorage.app",
+
+  messagingSenderId: "378440159514",
+
+  appId: "1:378440159514:web:574ea3739e29eb1c809ca3"
+
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
