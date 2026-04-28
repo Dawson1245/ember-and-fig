@@ -76,8 +76,8 @@ function Contact() {
           TODO: Customize the heading and subtitle text below.
           ============================================================ */}
       <div className="contact-header">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you!</p>
+        <h1>~ Get in Touch ~</h1>
+        <p>Questions? Reservations? Our tables are always open.</p>
       </div>
 
       <div className="form-container">
@@ -121,7 +121,7 @@ function Contact() {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="How can we help you?"
+              placeholder="Tell us about your feedback and/or any questions..."
               rows="5"
             ></textarea>
             {errors.message && <span className="error">{errors.message}</span>}
