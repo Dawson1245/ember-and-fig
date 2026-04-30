@@ -42,18 +42,9 @@ function Location() {
         </div>
 
         <div className="map-container">
-          <div className="map-placeholder">
-            <p>
-              📍 Google Maps embed goes here
-              <br />
-              <small>(See instructions in the code comments)</small>
-            </p>
-          </div>
-
-          {/* UNCOMMENT THIS in Week 4 and replace the URL:
           <iframe
             title="Restaurant Location"
-            src="YOUR_GOOGLE_MAPS_EMBED_URL_HERE"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4381.609814320462!2d-80.458034895252!3d35.65667138733178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1777546387734!5m2!1sen!2sus"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -61,7 +52,6 @@ function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          */}
         </div>
       </div>
     </div>

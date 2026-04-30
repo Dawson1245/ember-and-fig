@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="page">
-      {/* ============================================================
-          HERO SECTION
-          TODO: Replace the name, tagline, and button text with yours.
-          ============================================================ */}
       <section className="hero">
         <h1>Ember & Fig</h1>
         <p className="tagline">Where Fire Meets Flavor</p>
@@ -15,11 +11,6 @@ function Home() {
         </Link>
       </section>
 
-      {/* ============================================================
-          WELCOME SECTION
-          TODO: Write 1-2 paragraphs about YOUR restaurant.
-          What makes it special? What's your story?
-          ============================================================ */}
       <section className="welcome-section">
         <div className="welcome-text">
           <h2>Welcome</h2>
@@ -39,17 +30,15 @@ function Home() {
             out, Ember & Fig offers a dining experience that’s warm, inviting, and full of life.
           </p>
         </div>
+
         <div className="welcome-image">
-          {/* TODO: Replace with an <img> tag once you add images in Week 4 */}
-          📸 Add your restaurant photo here
+          <img
+            src="/noah-martinez-pJx3x9qxhGY-unsplash.jpg"
+            alt="Restaurant interior"
+          />
         </div>
       </section>
 
-      {/* ============================================================
-          FEATURE CARDS
-          TODO: Change the icons, titles, and descriptions below
-          to highlight 3 things that make YOUR restaurant special.
-          ============================================================ */}
       <section>
         <div className="features">
           <div className="feature-card">
